@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+litellm
+Faker
+fpdf2
+chromadb
+PyPDF2
