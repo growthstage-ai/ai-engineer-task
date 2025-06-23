@@ -1,6 +1,6 @@
 # FastAPI Backend Setup (with uv)
 
-This backend is a FastAPI application that exposes a simple "hello world" endpoint. It is designed to work with the Next.js frontend provided in the `chat/` directory.
+This backend is a FastAPI application that exposes a RAG endpoint, `/generate`. It is designed to work with the Next.js frontend provided in the `fe/` directory.
 
 ---
 

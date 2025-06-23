@@ -39,7 +39,6 @@ async def generate(request: Request):
     # Retrieve relevant context from ChromaDB using RAG
     context_chunks = await rag.retrieve_relevant_chunks(latest_user_message, k=4)
     context_text = "\n\n".join(context_chunks)
-    print(context_text)
     if context_text:
         # Prepend context as a system message
         conversation = (
